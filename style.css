@@ -4,19 +4,104 @@
     grid-template-rows: 100px 100px 100px 100px;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);*/
-    color:blue;
+    
     height: 400px;
     width: 400px;
+    background-color: wheat;
+    margin-top: 100px;
+    border-radius: 10px;
+    color:black;
+    border:solid;
+    
+}
+
+#bigContainerWrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#bigContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: red;
+    height: 700px;
+    border-radius: 60px;
+    position: relative;
+    width: 650px;
+    border: solid;
+}
+
+#insideContainer {
+    height: 550px;
+    display: block;
+}
+
+#title {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#contols {
+    display:float;
+    height: 100px;
+    background-color: skyblue;
+    width: 100%;
+    align-items: center;
+}
+
+#leftBut {
+    display: inline-block;
+}
+#inputBoxWrap {
+    display: inline-block;
+    width: 400px;
+    text-align: center;
+}
+#rightBut {
+    display: inline-block;
 }
 
 .box {
-    background-color: red;
+    background-color: wheat;
     color:orange;
-    transition: 20s;
+    transition: 60s;
 }
 
 .box:hover {
-    background-color: orange;
+    background-color:darkslategrey;
     transition: 0s; 
+}
+
+.boxColor {
+    background-color: purple;
+    transition: 60s;
+}
+
+
+.button {
+    background: white;
+    color: black;
+    border: solid;
+    border-color: black;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+#color {
+    background: purple;
+    color:gold;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 

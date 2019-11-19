@@ -3,9 +3,36 @@
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-        Type in the size of grid you want: <br><input type="text" name="number of cells" id="input"><button id="btn">Submit</button>
-        <div id="container">
-           
+        <div id="title">
+            <h1>Etch a Sketch</h1>
+            <h3>by Kevin Charles</h3>
+        </div>
+        <div id="bigContainerWrap">
+            <div id="bigContainer">
+                <div id="insideContainer">
+                    <div id="container">
+                    
+                    </div>
+                </div>
+                    <div id="controls">
+                        <div id="leftBut">
+                            <button id="clear" class="button">Clear</button>
+                        </div>
+                        <div id="inputBoxWrap">
+                            <div id="inputBox">
+                                Enter Box Size:
+                                <br><input type="text" name="number of cells" 
+                                id="input" value=40>
+                            </div>
+                        </div>
+                        <div id="rightBut">
+                            <button id="btn" class="button">Submit</button>
+                        </div>
+                        
+                        <!--<button id="color">Random Colors!</button>-->
+                    </div>
+                
+            </div>
         </div>
         <script src="script.js"></script>
     </body>
